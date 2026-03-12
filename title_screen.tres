@@ -1,0 +1,7 @@
+[gd_resource type="Theme" format=3 uid="uid://c44u782lj21fe"]
+
+[ext_resource type="FontFile" uid="uid://dyvr8k7c3ylu6" path="res://assets/fonts/StardosStencil-Bold.ttf" id="1_h0gxg"]
+
+[resource]
+default_font = ExtResource("1_h0gxg")
+default_font_size = 128

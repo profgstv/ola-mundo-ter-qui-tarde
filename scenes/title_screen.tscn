@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://rbj35grdfxi"]
+
+[ext_resource type="Theme" uid="uid://c44u782lj21fe" path="res://title_screen.tres" id="1_fgkus"]
+[ext_resource type="Script" uid="uid://cfwociraa83in" path="res://scripts/title_screen.gd" id="1_sa3yf"]
+
+[node name="TitleScreen" type="Control" unique_id=273541166]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_sa3yf")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1253140238]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.60784316, 0.5803922, 1, 1)
+
+[node name="Label" type="Label" parent="." unique_id=1129286268]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -342.5
+offset_right = 342.5
+offset_bottom = 177.0
+grow_horizontal = 2
+theme = ExtResource("1_fgkus")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Olá Mundo!"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=982399477]
+layout_mode = 0
+offset_left = 785.0
+offset_top = 602.0
+offset_right = 1097.0
+offset_bottom = 787.0
+theme = ExtResource("1_fgkus")
+text = "Sair"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
