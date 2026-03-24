@@ -6,10 +6,10 @@ uid="uid://cjgi2tlv47qsf"
 
 [deps]
 
-files=["res://assets/credits/credits.notes.translation", "res://assets/credits/credits.authors.translation", "res://assets/credits/credits.licenses.translation", "res://assets/credits/credits.urls.translation"]
+files=["res://assets/player/credits/credits.notes.translation", "res://assets/player/credits/credits.authors.translation", "res://assets/player/credits/credits.licenses.translation", "res://assets/player/credits/credits.urls.translation"]
 
-source_file="res://assets/credits/credits.csv"
-dest_files=["res://assets/credits/credits.notes.translation", "res://assets/credits/credits.authors.translation", "res://assets/credits/credits.licenses.translation", "res://assets/credits/credits.urls.translation"]
+source_file="res://assets/player/credits/credits.csv"
+dest_files=["res://assets/player/credits/credits.notes.translation", "res://assets/player/credits/credits.authors.translation", "res://assets/player/credits/credits.licenses.translation", "res://assets/player/credits/credits.urls.translation"]
 
 [params]
 

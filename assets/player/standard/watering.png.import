@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqcuxgmfpvy"
-path="res://.godot/imported/watering.png-705f13e64668e1f7e9682f99e292094f.ctex"
+path="res://.godot/imported/watering.png-e583a288ee8fe194a950e7b11ed36797.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/standard/watering.png"
-dest_files=["res://.godot/imported/watering.png-705f13e64668e1f7e9682f99e292094f.ctex"]
+source_file="res://assets/player/standard/watering.png"
+dest_files=["res://.godot/imported/watering.png-e583a288ee8fe194a950e7b11ed36797.ctex"]
 
 [params]
 

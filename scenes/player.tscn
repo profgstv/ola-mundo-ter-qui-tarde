@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://ckyb03uyfxit8"]
 
 [ext_resource type="Script" uid="uid://dxykkpbnkifjp" path="res://scripts/player.gd" id="1_qhqgy"]
-[ext_resource type="Texture2D" uid="uid://dpiy3r1ny3eq2" path="res://assets/standard/idle.png" id="2_dqkch"]
-[ext_resource type="Texture2D" uid="uid://fyu8usi657vm" path="res://assets/standard/run.png" id="3_qlg0r"]
+[ext_resource type="Texture2D" uid="uid://dpiy3r1ny3eq2" path="res://assets/player/standard/idle.png" id="2_dqkch"]
+[ext_resource type="Texture2D" uid="uid://fyu8usi657vm" path="res://assets/player/standard/run.png" id="3_qlg0r"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
 atlas = ExtResource("2_dqkch")
@@ -327,10 +327,17 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qhqgy"]
+size = Vector2(22, 5)
+
 [node name="Player" type="CharacterBody2D" unique_id=1575619279]
 script = ExtResource("1_qhqgy")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=852310087]
+[node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=852310087]
 sprite_frames = SubResource("SpriteFrames_holxr")
-animation = &"run_down"
-frame_progress = 0.15717655
+animation = &"idle_down"
+autoplay = "idle_down"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=595890650]
+position = Vector2(0, 26.5)
+shape = SubResource("RectangleShape2D_qhqgy")
