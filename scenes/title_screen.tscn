@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://rbj35grdfxi"]
 
-[ext_resource type="Theme" uid="uid://c44u782lj21fe" path="res://title_screen.tres" id="1_fgkus"]
+[ext_resource type="Theme" uid="uid://c44u782lj21fe" path="res://assets/themes/title_screen.tres" id="1_fgkus"]
 [ext_resource type="Script" uid="uid://cfwociraa83in" path="res://scripts/title_screen.gd" id="1_sa3yf"]
 
 [node name="TitleScreen" type="Control" unique_id=273541166]
