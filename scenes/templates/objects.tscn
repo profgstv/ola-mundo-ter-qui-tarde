@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://knh2xmkol04p"]
+
+[ext_resource type="Texture2D" uid="uid://dpuuih07lrr6c" path="res://assets/tiles/fabrica_assets/fcsbc_objects.png" id="1_8jb24"]
+
+[node name="Objects" type="StaticBody2D" unique_id=41042539]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=229981885]
+texture = ExtResource("1_8jb24")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=200438493]

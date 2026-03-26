@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cs5bgmcreribn"]
+
+[ext_resource type="PackedScene" uid="uid://knh2xmkol04p" path="res://scenes/templates/objects.tscn" id="1_3fvw3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hw2ec"]
+size = Vector2(7, 20)
+
+[node name="Lamppost" unique_id=41042539 instance=ExtResource("1_3fvw3")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=229981885]
+position = Vector2(0, -51)
+region_enabled = true
+region_rect = Rect2(128, 0, 64, 192)
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=200438493]
+position = Vector2(0.5, 28)
+shape = SubResource("RectangleShape2D_hw2ec")

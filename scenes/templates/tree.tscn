@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dyaafnchd4fnq"]
+
+[ext_resource type="PackedScene" uid="uid://knh2xmkol04p" path="res://scenes/templates/objects.tscn" id="1_yhu2m"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ysdt0"]
+size = Vector2(30, 21)
+
+[node name="Tree" unique_id=41042539 instance=ExtResource("1_yhu2m")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=229981885]
+position = Vector2(-1, -31)
+region_enabled = true
+region_rect = Rect2(192, 0, 128, 192)
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=200438493]
+position = Vector2(-1, 20.5)
+shape = SubResource("RectangleShape2D_ysdt0")

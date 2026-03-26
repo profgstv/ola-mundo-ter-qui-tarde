@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://37c8cs7l34vf"]
+
+[ext_resource type="PackedScene" uid="uid://knh2xmkol04p" path="res://scenes/templates/objects.tscn" id="1_5ytft"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rhci3"]
+load_path = "res://.godot/imported/fcsbc_objects.png-727325601c8ed1fd69dbf780e5dbb979.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pmmrt"]
+size = Vector2(127, 79)
+
+[node name="Guardhouse" unique_id=41042539 instance=ExtResource("1_5ytft")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=229981885]
+position = Vector2(0, -27)
+texture = SubResource("CompressedTexture2D_rhci3")
+region_enabled = true
+region_rect = Rect2(0, 0, 128, 128)
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=200438493]
+position = Vector2(-0.5, -2.5)
+shape = SubResource("RectangleShape2D_pmmrt")
