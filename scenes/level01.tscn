@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cs5bgmcreribn" path="res://scenes/templates/lamppost.tscn" id="4_l8gd6"]
 [ext_resource type="PackedScene" uid="uid://37c8cs7l34vf" path="res://scenes/templates/guardhouse.tscn" id="5_41r67"]
 [ext_resource type="PackedScene" uid="uid://dyaafnchd4fnq" path="res://scenes/templates/tree.tscn" id="6_rnd6f"]
+[ext_resource type="PackedScene" uid="uid://qy0b0fdk1qs7" path="res://scenes/templates/fabrica.tscn" id="7_rnd6f"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l8gd6"]
 texture = ExtResource("1_8es24")
@@ -228,3 +229,6 @@ position = Vector2(1257, 1137)
 
 [node name="Tree2" parent="." unique_id=1373391323 instance=ExtResource("6_rnd6f")]
 position = Vector2(586, 1258)
+
+[node name="StaticBody2D" parent="." unique_id=1017488806 instance=ExtResource("7_rnd6f")]
+position = Vector2(970, 1753)
