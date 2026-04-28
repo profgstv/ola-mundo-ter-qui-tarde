@@ -189,7 +189,7 @@ tile_map_data = PackedByteArray("AAAAAAAAAAAEAAAAAAAAAAEAAAAEAAAAAAAAAAIAAAAEAAA
 tile_set = SubResource("TileSet_ih8w3")
 
 [node name="Player" parent="." unique_id=1575619279 instance=ExtResource("2_gbk3v")]
-position = Vector2(946, 536)
+position = Vector2(980, 1903)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1261457719]
 limit_left = 0
@@ -230,5 +230,5 @@ position = Vector2(1257, 1137)
 [node name="Tree2" parent="." unique_id=1373391323 instance=ExtResource("6_rnd6f")]
 position = Vector2(586, 1258)
 
-[node name="StaticBody2D" parent="." unique_id=1017488806 instance=ExtResource("7_rnd6f")]
-position = Vector2(970, 1753)
+[node name="Fabrica" parent="." unique_id=1017488806 instance=ExtResource("7_rnd6f")]
+position = Vector2(1064, 1753)
