@@ -199,3 +199,5 @@ grow_vertical = 0
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1795523751]
 libraries/ = SubResource("AnimationLibrary_e11e6")
 autoplay = &"start"
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
