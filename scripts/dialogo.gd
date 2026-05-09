@@ -28,7 +28,13 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if mostrar_mensagem and mensagem_label.visible_ratio < 1:
 		mensagem_label.visible_characters += int(100 * delta)
-		pass
+	elif mostrar_mensagem and mensagem_label.visible_ratio == 1 and not h_box_container.visible:
+		h_box_container.get_child(0).grab_focus()
+		animation_player.play("mostrar_botoes")
+	for index in func_botoes.size():
+		if h_box_container.get_child(index).button_pressed:
+			func_botoes[index].call()
+			pass
 
 func _on_animation_player_animation_finished(anim_name: StringName) -> void:
 	if anim_name == "start":
