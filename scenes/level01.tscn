@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://d3lbdgw33n20g"]
 
 [ext_resource type="Texture2D" uid="uid://c2ve6rv84vbiq" path="res://assets/tiles/fabrica_assets/fcsbc_terrain.png" id="1_8es24"]
+[ext_resource type="Script" uid="uid://k7bflmnnvw3i" path="res://scripts/level_01.gd" id="1_xl5rn"]
 [ext_resource type="PackedScene" uid="uid://ckyb03uyfxit8" path="res://scenes/templates/player.tscn" id="2_gbk3v"]
 [ext_resource type="Texture2D" uid="uid://dqt86wneypd8k" path="res://assets/tiles/fabrica_assets/fcsbc_gates_and_fences.png" id="3_gbk3v"]
 [ext_resource type="PackedScene" uid="uid://cs5bgmcreribn" path="res://scenes/templates/lamppost.tscn" id="4_l8gd6"]
@@ -182,6 +183,7 @@ sources/1 = SubResource("TileSetAtlasSource_ih8w3")
 
 [node name="Level01" type="Node2D" unique_id=457938383]
 y_sort_enabled = true
+script = ExtResource("1_xl5rn")
 
 [node name="Terrain" type="TileMapLayer" parent="." unique_id=838417915]
 z_index = -1

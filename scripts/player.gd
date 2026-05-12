@@ -33,3 +33,7 @@ func _physics_process(_delta: float) -> void:
 	else:
 		animation("idle", sprite_direction)
 		pass
+
+func _process(_delta: float) -> void:
+	set_physics_process(!Global.dialogo_esta_ativo)
+	pass
